@@ -58,7 +58,7 @@ public class Vector {
             int y = ThreadLocalRandom.current().nextInt(-100, 100 + 1);
             int z = ThreadLocalRandom.current().nextInt(-100, 100 + 1);
             randArrays[i] = new Vector(new int[]{x, y, z});
-            System.out.println(Arrays.asList(randArrays[i]));
+//            System.out.println(Arrays.asList(randArrays[i]));
         }
         return randArrays;
     }
